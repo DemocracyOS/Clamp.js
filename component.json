@@ -1,0 +1,15 @@
+{
+  "name": "clampjs",
+  "repo": "vmariano/Clamp.js",
+  "description": "Clamp.js cuts off a long text and replace by elipsis (...)",
+  "keywords": [
+    "clamp",
+    "text"
+  ],
+  "version": "0.0.1",
+  "scripts": [
+    "clamp.js"
+  ],
+  "main": "clamp.js",
+  "license": "MIT" //i'm not sure if is mit.
+}
