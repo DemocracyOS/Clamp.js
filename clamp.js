@@ -6,7 +6,6 @@
 * http://sam.zoy.org/wtfpl/
 */
 
-(function(){
     /**
      * Clamps a text node.
      * @param {HTMLElement} element. Element containing the text node to clamp.
@@ -257,5 +256,5 @@
         }
     }
 
-    window.$clamp = clamp;
-})();
+/** Expose clamp**/
+module.exports = clamp;
