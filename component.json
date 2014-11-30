@@ -1,6 +1,6 @@
 {
   "name": "clampjs",
-  "repo": "vmariano/Clamp.js",
+  "repo": "DemocracyOS/Clamp.js",
   "description": "Clamp.js cuts off a long text and replace by elipsis (...)",
   "keywords": [
     "clamp",
