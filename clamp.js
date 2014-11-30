@@ -14,8 +14,7 @@
     function clamp(element, options) {
         options = options || {};
 
-        var self = this,
-            win = window,
+        var win = window,
             opt = {
                 clamp:              options.clamp || 2,
                 useNativeClamp:     typeof(options.useNativeClamp) != 'undefined' ? options.useNativeClamp : true,
@@ -39,7 +38,7 @@
         }
 
 
-// UTILITY FUNCTIONS __________________________________________________________
+        // UTILITY FUNCTIONS __________________________________________________________
 
         /**
          * Return the current style for an element.
@@ -102,7 +101,7 @@
         }
 
 
-// MEAT AND POTATOES (MMMM, POTATOES...) ______________________________________
+        // MEAT AND POTATOES (MMMM, POTATOES...) ______________________________________
         var splitOnChars = opt.splitOnChars.slice(0),
             splitChar = splitOnChars[0],
             chunks,
@@ -222,7 +221,7 @@
         }
 
 
-// CONSTRUCTOR ________________________________________________________________
+        // CONSTRUCTOR ________________________________________________________________
 
         if (clampValue == 'auto') {
             clampValue = getMaxLines();
